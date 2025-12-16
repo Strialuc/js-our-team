@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
     <title>Our Team</title>
 </head>
+
 <body>
-    
-<script src="./js/script.js"></script>
+    <div class="container text-center mt-5">
+        <h1>Meet our team</h1>
+        <p id="para">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, modi. Maiores cum, dolorem fugit
+            saepe dolor harum optio tenetur inventore rerum officia est expedita quia eaque cupiditate beatae delectus
+            blanditiis.
+        </p>
+        <section class="team-container row"></section>
+        <!-- Form -->
+        <section class="form-container mt-5">
+            <h2 class="mb-3">Add Team Member</h2>
+            <form id="member-form">
+                <div>
+                    <input type="text" id="name" placeholder="Nome completo" required>
+                </div>
+                <div>
+                    <input type="text" id="role" placeholder="Ruolo" required>
+                </div>
+                <div>
+                    <input type="text" id="email" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="text" id="image" placeholder="Url dell'immagine" required>
+                </div>
+                <button type="submit" class="btn btn-primary mt-3">Aggiungi membro</button>
+            </form>
+        </section>
+    </div>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>
