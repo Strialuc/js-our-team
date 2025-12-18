@@ -41,7 +41,7 @@ const teamMembers = [
 // Mostro in pagina le cards dei membri del team
 const output = document.querySelector(".team-container");
 
-// Richiamo funzione per far spuntare in pagina le cards membri
+// Richiamo funzione così che in pagina si creino le cards
 teamCards();
 
 // Seleziono elementi form
